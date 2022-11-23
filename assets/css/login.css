@@ -1,7 +1,7 @@
 .banner
 {
     height: 100vh;
-    background-image: url(/Web-Allybirds/assets/img/account/sign-in-banner.webp);
+    background-image: url(../img/account/sign-in-banner.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
