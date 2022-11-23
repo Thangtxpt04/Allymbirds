@@ -1,0 +1,413 @@
+
+
+/* Banner */
+.banner
+{
+    padding-top: 32%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(/Web-Allybirds/assets/img/Banner.jpg);
+
+}
+
+/* Container */
+.gifts
+{
+    margin-top: 30px;
+}
+.gifts__item
+{
+    width: 100%;
+    position: relative;
+}
+.gifts_item-img
+{
+    width: 100%;
+    display: block;
+}
+.gifts__btn
+{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.2rem;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+.gifts-message
+{
+    margin-top: 65px;
+    text-align: center;
+}
+.gifts-message p
+{
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--text-color);
+
+}
+.gifts__heading
+{
+    font-family: "Futura Condensed Extra";
+    font-weight: 700;
+    font-size: 7.2rem;
+    color: var(--text-color);
+}
+
+/* Top catagories */
+.top-catagories
+{
+    margin-top: 65px;
+}
+.top-catagories__list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    
+}
+.top-catagories__item
+{
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.top-catagories__item:hover
+{
+    border-bottom-color: #757575;
+}
+
+.top-catagories__item a
+{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+.container__content
+{
+    margin-top: 50px;
+}
+
+/* Filter-Slidebar */
+.category
+{
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--border-color);
+    
+}
+.category__heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category__heading p
+{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #000;
+}
+.category__list
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.category__item
+{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+.category__item input
+{
+    margin-right: 13px;
+}
+
+.color-filter
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-filter__item
+{
+    margin-right: 20px;
+}
+.Violet,
+.Black,
+.Red,
+.Orange,
+.Blue,
+.Brown,
+.Green,
+.Yellow
+{
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    
+}
+.Violet
+{
+    background-color: violet;
+}
+.Black
+{
+    background-color: #000;
+}
+.Red
+{
+    background-color: red;
+}
+.Orange
+{
+    background-color: orange;
+}
+.Blue
+{
+    background-color: blue;
+}
+.Brown
+{
+    background-color: brown;
+}
+.Green
+{
+    background-color: green;
+}
+.Yellow
+{
+    background-color: yellow;
+}
+
+
+/* Homepage */
+
+.homepage
+{
+    
+
+}
+.topic
+{
+    position: relative;
+}
+.home-filter
+{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0 10px;
+    border-radius: 4px;
+
+}
+.home-filter__heading
+{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #000;
+}
+.home-filter__see-more
+{
+    text-decoration: none;
+    color: #000;
+}
+.home-filter__see-more i
+{
+    margin-left: 4px;
+}
+
+.home-products
+{
+    position: relative;
+    margin-top: 24px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* khai báo sử dụng Internet Explorer, Edge */
+     /* sử dụng Firefox */
+}
+
+
+
+.home-products::-webkit-scrollbar {
+    display: none;
+}
+
+.home-product-item
+{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border:  solid var(--border-color);
+    border-radius: 5px;
+}
+.home-product-item:hover
+{
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.5);
+}
+.home-product-item__header
+{
+    overflow: hidden;
+}
+.home-product-item__img
+{
+    width: 100%;
+    transition: all linear 0.5s;
+    
+}
+.home-product-item:hover .home-product-item__img
+{
+    transform: scale(1.2,1.2);
+}
+.home-product-item__body
+{
+    padding: 13px;
+
+}
+.home-product-item__heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.home-product-item__name
+{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.home-product-item__heading i
+{
+    font-size: 2rem;
+}
+.home-product-item__type
+{
+    font-size: 1.6rem;
+    color: #757575;
+
+}
+.home-product-item__price
+{
+    
+}
+.home-product-item__price-old
+{
+    display: block;
+    font-size: 1.6rem;
+    color: #757575;
+    text-decoration: line-through;
+
+}
+.home-product-item__price-current
+{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--text-color)
+
+}
+.home-product-item__rating
+{
+    font-size: 1.5rem;
+    color: #d5d5d5;
+    margin: 1px 0 0 auto;
+
+}
+.home-product-item__star-gold
+{
+    color: #FFCE3E;
+
+}
+.home-product-item__sum-rating
+{
+    color: var(--text-color);
+    margin-left: 12px;
+    font-size: 1.6rem;
+}
+
+
+.home-product-item__sale-off   
+{
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    color: #E01A29;
+    background-color: currentColor;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 0 12px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+}
+.home-product-item__sale-off span
+{
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.home-product-item__sale-off::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    border-top: 3px solid currentColor;
+    border-right: 3px solid transparent;
+    filter: brightness(60%);
+}
+
+.btn-prev 
+{
+    position: absolute;
+    background-color: #292D32;
+    border-radius: 8px;
+    display: inline-block;
+    top: calc(50% - 15px);
+    left: 10px;
+    z-index: 3;
+}
+.btn-prev i
+{
+    font-size: 1.4rem;
+    padding: 10px 11px;
+    color: #fff;
+}
+.btn-next
+{
+    position: absolute;
+    border: 2px solid #292D32;
+    border-radius: 8px;
+    display: inline-block;
+    top: calc(50% - 15px);
+    right: 10px;
+    z-index: 3;
+}
+.btn-next i
+{
+    font-size: 1.4rem;
+    padding: 10px 11px;
+    color: #292D32;
+}
+
+

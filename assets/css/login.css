@@ -1,0 +1,174 @@
+.banner
+{
+    height: 100vh;
+    background-image: url(/Web-Allybirds/assets/img/account/sign-in-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+}
+#auth-form
+{
+    height: 660px;
+    min-width: 200px;
+    margin: auto;
+}
+.auth-form__logo
+{
+    font-family: "Ananda Black Personal";
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    
+}
+.auth-form__heading
+{
+    margin: 48px 0 36px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #444444;
+    
+}
+.auth-form__form
+{
+    
+}
+.auth-form__group
+{
+    
+}
+.auth-form__input
+{
+    width: 400px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    border: 1px solid #cccc;
+    display: block;
+}
+.auth-form__group.invalid .auth-form__input{
+    border-color: #f33a58;
+
+}
+.auth-form__group.invalid .form-message{
+    font-size: 1.2rem;
+    color: #f33a58;
+
+}
+.auth-form__input::placeholder
+{
+    color: #cccc;
+}
+.auth-form__btn-login
+{
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 40px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    background-color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-form__btn-login:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.auth-form__btn-login a
+{
+    width: 100%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.auth-form__aside
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.auth-form__keep-login
+{
+    display: flex;
+    align-items: center;
+
+}
+.auth-form__keep-login span
+{
+    margin-left: 4px;
+    font-size: 1.2rem;
+    color: #444444;
+}
+.auth-form__forgot
+{
+
+
+}
+.auth-form__forgot a
+{
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.2rem;
+
+}
+.auth-form__other
+{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.auth-form__other span
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 8px;
+    text-transform: uppercase;
+}
+.auth-form__line
+{
+    height: 1px;
+    flex: 1;
+    background-color: #c4c4c4;
+}
+.auth-form__socials
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+    border-radius: 12px;
+}
+.auth-form__socials-icon
+{
+    margin-right: 12px;
+}
+.auth-form__register
+{
+    text-align: right;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #000;
+}
+.auth-form__register a
+{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}

@@ -1,0 +1,382 @@
+/* Container */
+.container
+{
+    margin-top: 62px;
+}
+.title
+{
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #111111;
+    margin-bottom: 24px;
+}
+.products-cart
+{
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+}
+.products-cart__header
+{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.products-cart__heading
+{
+    margin: 0 12px;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #111111;
+}
+.products-cart__heading.active
+{
+    font-weight: 500;
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+.products-cart__content
+{
+    padding: 48px;
+}
+.carts__all
+{
+    display: flex;
+    align-items: center;
+}
+.carts__all span
+{
+    font-size: 1.2rem;
+    margin-left: 4px;
+    font-weight: 600;
+}
+.carts__list
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.carts__item
+{
+    margin: 12px 0;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.carts__item:last-child
+{
+    border-bottom: none;
+}
+.carts__item-img 
+{
+    margin: 0 12px;
+    width: 100px;
+    height: 100px;
+}
+.carts__item-body
+{
+    flex: 1;
+}
+.cart__item-name
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+    
+}
+.cart__item-infor
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #757575;
+}
+.cart__item-size
+{
+    /* margin: 4px 0; */
+}
+.cart__item-price,
+.cart__item-fav 
+{
+    font-weight: 600;
+    color: #111111;
+}
+
+.product__amout
+{
+    display: flex;
+    align-items: center;
+}
+.product__amout-heading
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+}
+.product__amout-btn
+{
+    padding-left: 24px;
+}
+.product__amout span
+{
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+.product__amout-btn
+{
+    display: flex;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    /* border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0; */
+    border: 1px solid #ddd;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin:0;
+}
+.cart__item-clear i
+{
+    color: #F13244BF;
+    margin-left: 12px;
+}
+
+/* Summary */
+.summary
+{
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgb(0,0,0,0.2);
+}
+.product
+{
+    position: relative;
+    padding: 48px 48px 112px;
+}
+.product__header
+{
+    display: flex;
+    padding-bottom: 24px;
+    border-bottom: 0.5px solid #ccc;
+
+}
+.product__img
+{
+    width: 100px;
+    height: 100px;
+
+}
+.product__body
+{
+    margin-left: 12px;
+    font-size: 1.6rem;
+
+}
+.product__name
+{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+.product__size
+{
+    color: #757575;
+    display: block;
+
+}
+.product__color
+{
+    color: #757575;
+
+}
+.product__amout
+{
+    color: #757575;
+
+}
+.product__price
+{
+    padding: 20px 0;
+    border-bottom: 0.5px solid #ccc;
+}
+.product__price-current,
+.product__price-transport,
+.product__price-final
+{
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.product__price-current p,
+.product__price-transport p,
+.product__price-final p
+{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000;
+}
+.product__price-final p
+{
+    font-weight: 600;
+}
+.product__price-current span,
+.product__price-transport span,
+.product__price-final span
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.product__pay-btn
+{
+    position: absolute;
+    right: 48px;
+    bottom: 48px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: 24px;
+    padding: 8px 24px;
+    background-color: #000;
+    cursor: pointer;
+}
+.product__pay-btn:hover
+{
+    opacity: 0.8;
+}
+
+
+
+/* Modal */
+.modal
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.2);
+    /* display: flex; */
+    display: none;
+}
+.modal.open
+{
+    display: flex;
+}
+.modal-container
+{
+    position: relative;
+    width: 360px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: auto;
+    padding: 30px;
+    animation: FadeIn ease-in 0.2s;
+}
+@keyframes FadeIn {
+    from
+    {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to
+    {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.modal-container__heading
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.modal-container__heading a
+{
+    font-family: "Ananda Black Personal";
+}
+.modal-container__des
+{
+    font-size: 1.4rem;
+}
+.modal-container__img
+{
+    width: 100px;
+    height: 100px;
+    background-image: url(/Web-Allybirds/assets/gif/Xinchao.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.btn-arrow-right
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+.btn-arrow-right i
+{
+    font-size: 1.5rem;
+    margin-right: 4px;
+}
+.btn-arrow-right a
+{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #111111;
+    font-weight: 600;
+}
+.btn-arrow-right:hover,
+.btn-arrow-right a:hover
+{
+    color: #757575;
+}

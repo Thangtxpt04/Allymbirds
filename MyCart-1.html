@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Detail 1</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/mycart-1.css">
+    <link rel="stylesheet" href="./assets/font/Nike-Font/">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <nav class="header__sub">
+                <ul class="header__sub-list">
+                    <li class="header__sub-item header__sub-item--separate">
+                        <a href="">Tải ứng dụng</a>
+                    </li>
+                    <li class="header__sub-item header__sub-item--separate">
+                        <a href="">Tìm chi nhánh</a>
+                    </li>
+                    <li class="header__sub-item header__sub-item--separate">
+                        <a href="">Chăm sóc khách hàng</a>
+                    </li>
+                    <li class="header__sub-item">
+                        <a href="">Ngôn ngữ</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <header class="header__main">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <a href="./Homepage.html" class="header__navbar-item">
+                            <img src="./assets/img/logo.png" alt="" class="logo">
+                        </a>
+    
+                        <li class="header__navbar-item">
+                            <div class="header__navbar-search">
+                                <input type="text" name="" id="" class="header__navbar-input" placeholder="Tìm kiếm sản phẩm">
+                                <i class="header__item-icon fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__item-icon fa-solid fa-bell"></i>
+                                Thông báo
+                            </a>
+                        </li>
+    
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__item-icon fa-regular fa-user"></i>
+                                Tài khoản
+                            </a>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Thông tin tài khoản</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+
+                                <li class="header__navbar-user-item">
+                                    <a href="">Danh sách yêu thích</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Hộp thư</a>
+                                </li>
+
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="./Login.html">Đăng xuất</a>
+                                </li>
+                            </ul>
+
+
+                        </li>
+    
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__item-icon fa-solid fa-cart-shopping"></i>
+                                Giỏ hàng
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </header>
+        </header>
+
+        <div class="wraper">
+            <div class="grid wide">
+                <div class="container">
+                    <h1 class="title">
+                        Giỏ mua sắm
+                    </h1>
+                    <div class="row">
+                        <div class="col l-7">
+                            <div class="products-cart">
+                                <div class="products-cart__header">
+                                    <h3 class="products-cart__heading active">
+                                        1. Sản phẩm
+                                    </h3>
+                                    <h3 class="products-cart__heading">
+                                        2. Đơn vị vận chuyển
+                                    </h3>
+                                    <h3 class="products-cart__heading">
+                                        3. Phương thức thanh toán
+                                    </h3>
+                                </div>
+                                <div class="products-cart__content">
+                                    <div class="carts__all">
+                                        <input type="checkbox" class="carts__all-input" >
+                                        <span>Tất cả</span>
+                                    </div>
+                                    <ul class="carts__list">
+                                        <!-- Render trong js -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-5">
+                            <div class="summary">
+                                <div class="product">
+                                    <div class="product__header">
+                                        <img src="./assets/img/shoes/sneaker-01.webp" alt="" class="product__img">
+                                        <div class="product__body">
+                                            <h3 class="product__name">
+                                                Giày Sneaker Adidas Ultra4d “Hurricanes”
+                                            </h3>
+                                            <span class="product__size">Size: 42</span>
+                                            <span class="product__color">
+                                                Màu: Xanh lục
+                                            </span>
+                                            <span class="product__amout">Số lượng: 1</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="product__price">
+                                        <div class="product__price-current">
+                                            <p>Tạm Tính</p>
+                                            <span>
+                                                1.349.999đ
+                                            </span>
+                                        </div>
+                                        <div class="product__price-transport">
+                                            <p>Phí vận chuyển</p>
+                                            <span>
+                                                30.000đ
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="product__price-final mt-24 ">
+                                        <p>
+                                            Tổng(Đã bao gồm thuế VAT)
+                                        </p>
+                                        <span>1.379.000đ</span>
+                                    </div>
+
+
+                                    <button class="product__pay-btn">
+                                        Tiếp tục
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer__content">
+                    <div class="col l-2">
+                        <div class="footer__logo">
+                            <span>allymbirds</span>
+                        </div>
+                    </div>
+
+                    <div class="col l-8">
+                        <div class="row footer__body">
+                            <div class="col l-3">
+                                <h3 class="footer__heading">
+                                    Về chúng tôi
+                                </h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">Tin tức</li>
+                                    <li class="footer__item">Thông tin tuyển dụng</li>
+                                    <li class="footer__item">Đầu tư</li>
+                                    <li class="footer__item">Tính bền vững</li>
+                                </ul>
+                            </div>
+
+                            <div class="col l-3">
+                                <h3 class="footer__heading">
+                                    Nhận trợ giúp
+                                </h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">Trạng thái đơn hàng</li>
+                                    <li class="footer__item">Câu hỏi thường gặp</li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="col l-3">
+                                <h3 class="footer__heading">
+                                    Đối tác
+                                </h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">Đối tác liên kết</li>
+                                    <li class="footer__item">Đồng hành cùng chúng tôi</li>
+                                    <li class="footer__item">Hình thức thanh toán</li>
+                                </ul>
+                            </div>
+
+                            <div class="col l-3">
+                                <h3 class="footer__heading">
+                                    Liên hệ với Allymbirds
+                                </h3>
+                                <ul class="footer__list">
+                                    <li class="footer__item">Đăng ký nhận Email</li>
+                                    <li class="footer__item">Facebook</li>
+                                    <li class="footer__item">Instagram</li>
+                                    <li class="footer__item">Youtube</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col l-2">
+                        <div class="footer__copyright">
+                            <span>
+                                © 2020-2022 Allymbirds. All Rights Reserved.
+                            </span>
+
+                        </div>
+                    </div>
+                    
+    
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <div class="modal">
+        <div class="modal-container">
+            
+            <div class="modal-container__heading">
+                Cảm ơn bạn đã tin tưởng 
+                <a> Allymbirds</a>
+            </div>
+            <p class ="modal-container__des">Đơn hàng của bạn sẽ được giao cho đơn vị vận chuyển sớm nhất!</p>
+            <div class="modal-container__img">
+                
+            </div>
+
+            <div class="btn-arrow-right">
+                <i class="fa-solid fa-arrow-right"></i>
+                <a href="./Homepage.html">Quay trở về trang chủ</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./cart.js">
+        
+    </script>
+    
+    
+</body>
+</html>

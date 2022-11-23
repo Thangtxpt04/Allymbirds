@@ -1,0 +1,277 @@
+:root
+{
+    --text-color:  #111111;
+    --border-color: #f5f5f5;
+
+
+}
+@font-face {
+    font-family: "Futura Condensed Extra";
+    src: url(/Web-Allybirds/assets/font/Nike-Font/Futura\ Condensed\ Extra\ Bold.otf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(/Web-Allybirds/assets/font/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "Ananda Black Personal";
+    src: url(/Web-Allybirds/assets/font/ananda-black-font/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+*
+{
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.text-center
+{
+    text-align: center !important;
+}
+.mt-48
+{
+    margin-top: 48px;
+}
+.mt-32
+{
+    margin-top: 32px;
+}
+.mt-24
+{
+    margin-top: 24px !important;
+}
+.pdl-0
+{
+    padding-left: 0 !important;
+
+}
+
+.header
+{
+    margin: 0;
+    padding: 0;
+}
+.header__sub
+{
+    background-color: #f5f5f5;
+    height: 36px;
+
+}
+
+.header__sub-list
+{
+    padding: 0;
+    height: 36px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 48px;
+}
+.header__sub-item
+{
+    margin: 0 12px;
+    position: relative;
+
+}
+.header__sub-item--separate::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    width: 1px;
+    height: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--text-color);
+}
+
+
+.header__sub-item a
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.header__main
+{
+    height: 60px;
+}
+.header__navbar
+{
+    margin: 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navbar-list
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__navbar-item
+{
+    margin: 0 12px;
+    display: flex;
+    position: relative;
+}
+.header__navbar-item:hover 
+.header__navbar-user-menu
+{
+    display: block;
+}
+.header__navbar-user-menu
+{
+    position: absolute;
+    list-style: none;
+    padding-left: 0;
+    width: 180px;
+    top: calc(100% + 6px);
+    right: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgb(0,0,0,0.2);
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+}
+.header__navbar-user-menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    width: 70%;
+    height: 8px;
+}
+.header__navbar-user-item a
+{
+    text-decoration: none;
+    color: #757575;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 8px 16px;
+    display: block;
+}
+.header__navbar-user-item a:hover
+{
+    background-color: #fafafa;
+}
+.logo
+{
+    width: 145px;
+    height: 40px;
+}
+.header__navbar-search
+{
+    background-color: var(--border-color);
+    width: 300px;
+    height: 40px;
+    border-radius: 24px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s;
+    
+}
+.header__navbar-search:hover
+{
+    width: 450px;
+}
+
+
+.header__navbar-input
+{
+    height: 100%;
+    width: 80%;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    background-color: var(--border-color);
+    margin-left: 10px;
+
+}
+.header__navbar-item-link
+{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.header__navbar-item-link:hover
+{
+    color: #757575;
+}
+
+.header__item-icon
+{
+    font-size: 2rem;
+    margin-right: 6px;
+}
+
+/* Footer */
+.footer
+{
+    margin-top: 300px;
+    background-color: #000;
+    color: #fff;
+
+}
+.footer__content
+{
+    padding: 78px 0 37px;
+
+}
+.footer__logo span
+{
+    font-family: "Ananda Black Personal" ;
+    font-size: 3.6rem;
+
+}
+.footer__body
+{
+
+}
+.footer__heading
+{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+
+
+}
+.footer__list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.footer__item
+{
+    margin: 9px 0;
+
+}
+
+.footer__copyright
+{
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+}

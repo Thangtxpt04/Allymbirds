@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div class="row wrapper no-gutters">
+        <div class="col l-6 no-gutters">
+            <div class="banner"></div>
+        </div>
+
+        <div class="col l-6">
+            <div class="container">
+                <form id="auth-form" class="form">
+                    <h3 class="auth-form__logo">allymbirds</h3>
+                    <h3 class="auth-form__heading">Đăng nhập</h3>
+    
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" rules = "required" name="name" id = "name" class="auth-form__input" placeholder="Nhập email hoặc số điện thoại của bạn">
+                            <span class="form-message"></span>
+                        </div>
+    
+                        <div class="auth-form__group mt-32">
+                            <input type="password" rules = "required|min:6" name="password" id = "password" class="auth-form__input" placeholder="Mật khẩu">
+                            <span class="form-message"></span>
+                        </div>
+    
+                    </div>
+    
+                    <button class="auth-form__btn-login mt-32">
+                         <a href="./Homepage.html">Đăng nhập</a>
+                    </button>
+                    
+    
+                    <div class="auth-form__aside mt-32">
+                        <div class="auth-form__keep-login">
+                            <input type="checkbox" name="" id="">
+                            <span>Duy trì đăng nhập</span>
+                        </div>
+                        <div class="auth-form__forgot">
+                            <a href="" class="">
+                                Quên mặt khẩu?
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="auth-form__other">
+                        <span class="auth-form__line"></span>
+                        <span>Hoặc</span>
+                        <div class="auth-form__line"></div>
+                    </div>
+    
+                    <div class="auth-form__socials">
+                        <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                        Đăng nhập với Google
+                    </div>
+    
+                    <div class="auth-form__socials">
+                        <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                        Đăng nhập với Facebook 
+                    </div>
+    
+                    <div class="auth-form__register">
+                        Bạn chưa có tài khoản?
+                        <a href="./Regester.html">Đăng kí</a>
+                    </div>
+    
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src = './validator.js'></script>
+    <script>
+        // Mong muốn 
+        Validator('#auth-form');
+
+    </script>
+    
+</body>
+</html>
