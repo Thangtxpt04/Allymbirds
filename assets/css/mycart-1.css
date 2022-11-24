@@ -349,7 +349,7 @@
 {
     width: 100px;
     height: 100px;
-    background-image: url(/assets/gif/Xinchao.gif);
+    background-image: url(../gif/Xinchao.gif);
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
