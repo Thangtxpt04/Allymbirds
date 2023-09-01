@@ -1,0 +1,450 @@
+[{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fbf"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc0"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc1"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc2"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Nam",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc3"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Nam",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 999,
+    "current": 699
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc4"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc5"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc6"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Nam",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc7"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Nam",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc8"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Nam",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 899,
+    "current": 599
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5aeabb3da773259706fb8"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fc9"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fca"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fcb"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fcc"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fcd"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 999,
+    "current": 699
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fce"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fcf"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fd0"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fd1"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d5af5fb3da773259706fd2"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Nữ",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 899,
+    "current": 599
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af10b3da773259706fb9"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af9326237"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af9326238"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af9326239"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623a"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623b"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 999,
+    "current": 699
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623c"
+  },
+  "name": "Air Jodan 1 Low SE",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-01.webp",
+  "price": {
+    "old": 100,
+    "current": 75
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623d"
+  },
+  "name": "Nike Force 1",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-02.webp",
+  "price": {
+    "old": 123,
+    "current": 85
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623e"
+  },
+  "name": "Balenciaga ",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/nike-03.webp",
+  "price": {
+    "old": 156,
+    "current": 120
+  },
+  "stars": 4,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af932623f"
+  },
+  "name": "GIÀY SAMBA OG",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/sneaker-01.webp",
+  "price": {
+    "old": 567,
+    "current": 499
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+},
+{
+  "_id": {
+    "$oid": "64d9a89cb3fcc59af9326240"
+  },
+  "name": "GIÀY LITE RACER 3.0 ",
+  "type": "Giày Thể thao",
+  "img": "/images/shoes/sneaker-02.webp",
+  "price": {
+    "old": 899,
+    "current": 599
+  },
+  "stars": 3,
+  "reviews": 142,
+  "categoryId": "64d5af24b3da773259706fba"
+}]

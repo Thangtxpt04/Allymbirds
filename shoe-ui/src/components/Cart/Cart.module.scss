@@ -1,0 +1,17 @@
+.item
+                {
+                    margin: 0 12px;
+                    display: flex;
+                    position: relative;
+                    
+                    
+                    .link
+                    {
+                        text-decoration: none;
+                        font-size: 1.6rem;
+                        color: var(--text-color);
+                        &:hover {
+                        color: #757575;
+                        }
+                    }
+                }

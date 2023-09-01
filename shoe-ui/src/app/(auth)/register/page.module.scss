@@ -1,0 +1,140 @@
+.banner
+{
+    height: 100vh;
+    background-image: url(../../../../public/images/sign-up-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #authForm
+    {
+        height: 660px;
+        min-width: 200px;
+        margin: auto;
+        .logo {
+            text-align: center;
+            img
+            {
+                width: 190px;
+                height: 70px;  
+            }
+        }
+        .heading
+        {
+            margin: 48px 0 36px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 3rem;
+            color: #444444;
+            
+        }
+        .input
+        {
+            width: 400px;
+            height: 40px;
+            padding: 0 20px;
+            font-size: 1.4rem;
+            border-radius: 12px;
+            border: 1px solid #cccc;
+            display: block;
+            margin-bottom: 4px;
+            &::placeholder
+            {
+                color: #cccc;
+            }
+        }
+        .input.error {
+            border-color: #f33a58;
+        }
+        .form-message {
+            margin-left: 4px;
+            font-size: 1.2rem;
+            color: #f33a58;
+        }
+
+    }
+    .btn-submit
+    {
+        outline: none;
+        border: none;
+        width: 400px;
+        height: 50px;
+        font-size: 1.6rem;
+        border-radius: 12px;
+        background-color: #c4c4c4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        
+    }
+  
+    .other
+        {
+            margin-top: 16px;
+            display: flex;
+            align-items: center;
+
+            span {
+                font-size: 1.6rem;
+                font-weight: 500;
+                margin: 0 8px;
+                text-transform: uppercase;
+            }
+            .line {
+                height: 1px;
+                flex: 1;
+                background-color: #c4c4c4;
+            }
+
+        }
+        .socials
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+            border-radius: 12px;
+
+            .icon
+            {
+                margin-right: 12px;
+                width: 20px
+            }
+        }
+        .register
+        {
+            text-align: right;
+            margin-top: 40px;
+            font-weight: 500;
+            font-size: 1.6rem;
+            color: #000;
+            a
+            {
+                text-decoration: none;
+                font-weight: 600;
+                color: #000;
+                margin-left: 4px;
+            }
+        }
+}
+

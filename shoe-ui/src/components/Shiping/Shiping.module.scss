@@ -1,0 +1,61 @@
+// Shiping
+.shiping {
+    padding: 30px;
+    .shiping-title {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .shiping-container {
+        .shiping-item {
+            margin: 16px 0;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            position: relative;
+
+            .shiping-item-title {
+                font-size: 1.6rem;
+                margin-bottom: 10px;
+            }
+
+            .shiping-item-des {
+                display: flex;
+                justify-content: space-between;
+                span {
+                    font-size: 1.4rem;
+                    color: #757575;
+
+                }
+                .shiping-item-price {
+                    color: #111111;
+                }
+            }
+            .shiping-item-icon {
+                position: absolute;
+                top: -7px;
+                left: 27px;
+                font-size: 1.4rem;
+            }
+        }
+        .shiping-item.active {
+            border: 2px solid green;
+            .shiping-item-icon {
+                color: green;
+            }
+
+        }
+    }
+}
+
+.btn-next {
+    font-size: 1.6rem;
+    color: #fff;
+    border-radius: 24px;
+    padding: 8px 24px;
+    background-color: #000;
+    cursor: pointer;
+}
+.btn-next.disabled {
+    opacity: 0.3;
+    color: #ccc;
+}

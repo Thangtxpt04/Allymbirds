@@ -1,0 +1,38 @@
+.infor-item {
+    margin: 16px 0;
+    padding: 16px 0;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F5;
+    .infor-body {
+        display: flex;
+        .item-title {
+            width: 300px;
+            font-weight: 500;
+        }
+        .item-content {
+            font-weight: 400;
+        }
+        .input-content {
+            border: none;
+            outline: none;
+            height: 30px;
+            border-bottom: 1px solid #ccc;
+            font-size: 2.4rem;
+        }
+    }
+    .edit {
+        font-size: 2rem;
+        margin: 0 8px;
+        cursor: pointer;
+        .edit-icon {
+            margin-left: 8px;
+            width: 30px;
+        }
+            
+    }
+}

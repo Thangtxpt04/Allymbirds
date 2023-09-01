@@ -1,0 +1,129 @@
+.item
+{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    border:  solid var(--border-color);
+    border-radius: 5px;
+    &:hover
+    {
+        box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.5);
+    }
+    .header
+    {
+        overflow: hidden;
+        img
+        {
+            width: 100%;
+            transition: all linear 0.5s;
+            
+        }
+    }
+    &:hover img
+    {
+        transform: scale(1.2,1.2);
+    }
+    .body
+    {
+        padding: 13px;
+    
+        .heading
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .name
+            {
+                margin: 10px 0;
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: var(--text-color);
+            }
+            .icon
+            {
+                width: 20px;
+                color: #292D32;
+            }
+        }
+        .type
+        {
+            font-size: 1.6rem;
+            color: #757575;
+            span {
+               margin: 10px 0;
+            }
+        
+        }
+        .price
+        {
+            
+            .old
+            {
+               margin: 10px 0;
+                display: block;
+                font-size: 1.6rem;
+                color: #757575;
+                text-decoration: line-through;
+            
+            }
+            .current
+            {
+                font-weight: 500;
+                font-size: 1.6rem;
+                color: var(--text-color)
+            
+            }
+        }
+        .rating
+        {
+           margin-top: 10px;
+            
+            .star-gold
+            {
+                width: 15px;
+                color: #FFCE3E;
+
+            
+            }
+            .sum-rating
+            {
+                color: var(--text-color);
+                margin-left: 12px;
+                font-size: 1.6rem;
+            }
+        }
+        .sale-off   
+        {
+            position: absolute;
+            top: 10px;
+            right: -5px;
+            color: #E01A29;
+            background-color: currentColor;
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 2rem;
+            padding: 0 12px;
+            border-top-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+        
+           span
+            {
+                color: #fff;
+                font-weight: 600;
+            
+            }
+            &:before
+            {
+                content: "";
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: -3px;
+                border-top: 3px solid currentColor;
+                border-right: 3px solid transparent;
+                filter: brightness(60%);
+            }
+        }
+    }
+}

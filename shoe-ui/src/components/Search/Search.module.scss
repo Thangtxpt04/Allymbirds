@@ -1,0 +1,28 @@
+                .search
+                    {
+                        background-color: var(--border-color);
+                        width: 300px;
+                        height: 40px;
+                        border-radius: 24px;
+                        padding: 0 12px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        transition: all 0.5s;
+                        
+                        &:hover {
+                             width: 450px;
+                        }
+
+                        .input
+                        {
+                            height: 100%;
+                            width: 80%;
+                            font-size: 1.6rem;
+                            color: var(--text-color);
+                            border: none;
+                            outline: none;
+                            background-color: var(--border-color);
+                            margin-left: 10px;
+                        }
+                    }

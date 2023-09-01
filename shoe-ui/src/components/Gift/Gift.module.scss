@@ -1,0 +1,49 @@
+.wrapper
+{
+    margin-top: 30px;
+    .item
+    {
+        width: 100%;
+        position: relative;
+        .img
+        {
+            width: 100%;
+            display: block;
+        }
+        .btn
+        {
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            left: 20px;
+            bottom: 20px;
+            color: #fff;
+            background-color: #000;
+            font-size: 1.2rem;
+            border-radius: 24px;
+            cursor: pointer;
+        
+        }
+    }
+    .message
+    {
+        margin-top: 65px;
+        text-align: center;
+        p
+        {
+            margin: 0;
+            font-weight: 500;
+            font-size: 1.6rem;
+            color: var(--text-color);
+        
+        }
+        .heading
+        {
+            margin: 12px 0;
+            font-family: "Futura Condensed Extra";
+            font-weight: 700;
+            font-size: 7.2rem;
+            color: var(--text-color);
+        }
+    }
+}
